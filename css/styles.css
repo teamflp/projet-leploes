@@ -69,25 +69,27 @@ body {
   text-align: center;
 }
 .right .infos .coordonnees {
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: 700;
+  color: #222f51;
+  font-weight: 900;
   text-align: center;
   padding: 25px 0;
   text-align: center;
   align-items: center;
   align-content: center;
   border-top: 2px solid #222f51;
-  font-family: "Roboto", sans-serif;
 }
-.right .about {
+.right .infos .coordonnees .fa-square-phone, .right .infos .coordonnees .fa-code-branch, .right .infos .coordonnees .fa-envelope {
+  font-size: 2em;
+  padding: 0 10px;
+}
+.right .about, .right .works, .right .training, .right .skills {
   width: 100%;
   color: #ffffff;
   background-color: #222f51;
   padding: 20px 50px 20px 50px;
   font-size: 1.5rem;
 }
-.right .about h2 {
+.right .about h2, .right .works h2, .right .training h2, .right .skills h2 {
   color: rgba(247, 191, 38, 0.9098039216);
   font-weight: 700;
   padding-bottom: 10px;
@@ -96,47 +98,17 @@ body {
   border-bottom: rgba(247, 191, 38, 0.9098039216) 2px solid;
   font-family: "Roboto", sans-serif;
 }
-.right .about p {
+.right .about p, .right .works p, .right .training p, .right .skills p {
   font-size: 1rem;
   font-weight: 400;
 }
-.right .works {
-  width: 100%;
-  color: #ffffff;
-  background-color: #222f51;
-  padding: 20px 50px 20px 50px;
-  font-size: 1.5rem;
-}
-.right .works h2 {
+.right .training .training-card .fa-calendar-alt {
   color: rgba(247, 191, 38, 0.9098039216);
-  font-weight: 700;
-  padding-bottom: 10px;
-  margin-bottom: 3vh;
-  text-transform: uppercase;
-  border-bottom: rgba(247, 191, 38, 0.9098039216) 2px solid;
-  font-family: "Roboto", sans-serif;
-}
-.right .works p {
-  font-size: 1rem;
-  font-weight: 400;
-}
-.right .training {
-  width: 100%;
-  color: #ffffff;
-  background-color: #222f51;
-  padding: 20px 50px 20px 50px;
   font-size: 1.5rem;
+  padding-right: 10px;
 }
-.right .training h2 {
-  color: rgba(247, 191, 38, 0.9098039216);
+.right .training .training-card p:first-child {
   font-weight: 700;
-  padding-bottom: 10px;
-  margin-bottom: 3vh;
-  text-transform: uppercase;
-  border-bottom: rgba(247, 191, 38, 0.9098039216) 2px solid;
-  font-family: "Roboto", sans-serif;
-}
-.right .training p {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: italic;
 }/*# sourceMappingURL=styles.css.map */
