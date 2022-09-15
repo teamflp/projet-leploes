@@ -7,66 +7,72 @@ body {
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
-    padding: 0;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
 }
-.container {
-     box-shadow: $shadow;
-     border-radius: 10px;
-     background-color: $darkblue;
 
-     .row {
-         margin-top: 5vh;
-         padding: 0;
-     }
+.container-fluid {
+    margin: 0;
+}
+
+.container {
+    box-shadow: $shadow;
+    background-color: $darkblue;
+
+    .row {
+        margin-top: 5vh;
+    }
 }
 
 .header {
-     h1 {
-        color: $color_1;
-        font-size: 2.5rem;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 700;
-        padding: 20px 0;
-        text-align: center;
-     }
-     hr {
-        border: 0;
-        border-bottom: 1px solid $white_1;
-        margin: 0;
+    h1 {
+    color: $color_1;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    padding: 20px 0;
+    text-align: center;
+    }
+    hr {
+    border: 0;
+    border-bottom: 1px solid $white_1;
+    margin: 0;
      }
 }
 
 .left {
-     color: $gary_dard;
-     background-color: $white_1;
-     .logo-card {
-          width: 100%;
-          padding-bottom: 5vh;
-          text-align: center;
-          background-color: $white_1;
-          border-bottom: 2px solid $darkblue;
-          .logo {
-               width: 100%;
-          }
-     }
+    color: $gary_dard;
+    background-color: $white_1;
+    .logo-card {
+        width: 100%;
+        padding-bottom: 5vh;
+        text-align: center;
+        background-color: $white_1;
+        border-bottom: 2px solid $darkblue;
+        .logo {
+            width: 100%;
+        }
+    }
 }
 
 .right {
      
     .infos {
         width: 100%;
-        text-align: center;
         font-family: 'Roboto', sans-serif;
         background-color: $yellow;
         border-bottom: 2px solid $darkblue;
-        padding: 50px 50px 20px 50px;
+        padding: 50px 50px 50px 50px;
         font-size: 1.5rem;
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%);
         clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%); /*  Chrome,Safari4+ */
-        h2 span{
-            font-weight: 700;
-            padding: 20px 0;
-            text-align: center;
+        h2 {
+           text-align: center;
+           
+            span {
+                font-weight: 700;
+                padding: 20px 0;
+            } 
         }
         p {
             font-size: 1rem;
@@ -76,18 +82,10 @@ body {
 
         .coordonnees {
             color: $darkblue;
-            font-weight: 900;
-            text-align: center;
-            padding: 25px 0;
-            text-align: center;
-            align-items: center;
-            align-content: center;
+            font-weight: 600;
+            text-align: left;
+            font-size: 0.7em;
             border-top: 2px solid $darkblue;
-
-            .fa-square-phone, .fa-code-branch, .fa-envelope {
-                font-size: 2em;
-                padding: 0 10px;
-            }
         }
     }
 
