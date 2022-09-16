@@ -21,6 +21,10 @@ body {
         
         .nav-item .mylink {
             color: $white;
+
+            .navbar-toggler {
+                color: $white;
+            }
         }
     }
 }
