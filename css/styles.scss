@@ -42,16 +42,19 @@ body {
 
 .left {
     color: $gary_dard;
-    background-color: $white_1;
+    
     .logo-card {
         width: 100%;
         padding-bottom: 5vh;
         text-align: center;
-        background-color: $white_1;
         border-bottom: 2px solid $darkblue;
         .logo {
             width: 100%;
         }
+    }
+
+    .portfolio-card {
+        background-color: $yellow;
     }
 }
 
@@ -61,7 +64,6 @@ body {
         width: 100%;
         font-family: 'Roboto', sans-serif;
         background-color: $yellow;
-        border-bottom: 2px solid $darkblue;
         padding: 50px 50px 50px 50px;
         font-size: 1.5rem;
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%);
@@ -86,7 +88,6 @@ body {
             text-align: left;
             font-size: 0.7em;
             padding-top: 20px;
-            border: 1px solid $darkblue;
         }
     }
 
