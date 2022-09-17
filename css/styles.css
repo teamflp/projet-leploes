@@ -1,3 +1,4 @@
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -43,6 +44,33 @@ body {
 }
 .left .logo-card .logo {
   width: 100%;
+}
+
+.left .skills {
+  width: 100%;
+  color: #222f51;
+  padding: 20px 0 20px 0;
+  font-size: 1.5rem;
+}
+
+.left .skills h2 {
+  color: #222f51;
+  font-weight: 700;
+  padding-bottom: 10px;
+  margin-bottom: 3vh;
+  text-transform: uppercase;
+  border-bottom: #222f51 2px solid;
+  font-family: 'Roboto', sans-serif;
+}
+
+.left .skills p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.left .skills h3 , .left .skills ul li {
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .right .infos {
