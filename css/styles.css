@@ -100,6 +100,11 @@ body {
   text-align: left;
   font-size: 0.7em;
 }
+.right .infos .coordonnees .icon {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 .right .about, .right .works, .right .training, .right .skills {
   width: 100%;
   color: #ffffff;
